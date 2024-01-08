@@ -18,8 +18,12 @@
 | [reverse shell pentest monkey](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet) | ----------- | ----------- | ----------- |
 | [webshells](https://github.com/BlackArch/webshells/tree/master/php) | ----------- | ----------- | ----------- |
 linenum - https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh
-https://gtfobins.github.io/gtfobins/vi/#sudo
-https://lolbas-project.github.io/#
+Checklist escalada Linux - https://book.hacktricks.xyz/linux-hardening/linux-privilege-escalation-checklist
+Checklist escalada Windows - https://book.hacktricks.xyz/windows-hardening/checklist-windows-privilege-escalation
+Checklist persistencia Linux - https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Persistence.md - https://www.linode.com/docs/guides/linux-red-team-persistence-techniques/
+Checklist persistencia Windows - https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Persistence.md https://www.linode.com/docs/guides/windows-red-team-persistence-techniques/
+GTFOBINS Linux - https://gtfobins.github.io/gtfobins/vi/#sudo
+LOLBAS Windows - https://lolbas-project.github.io/#
 Vulnerabilidades - https://www.exploit-db.com
 Windows File Transfer - https://juggernaut-sec.com/windows-file-transfers-for-hackers/#Downloading_and_Uploading_Files_Using_evil-winrm
 Esquema movimientos AD Orange - https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2022_11.svg
@@ -28,12 +32,11 @@ Chisel - https://github.com/jpillora/chisel/releases/tag/v1.8.1
 SQL Injection Cheatshet Portswigger - https://portswigger.net/web-security/sql-injection/cheat-sheet
 Powershell port scan - https://medium.com/@nallamuthu/powershell-port-scan-bf27fc754585
 Privileges to admin Windows - https://github.com/gtworek/Priv2Admin
-OSINT
+OSINT Checklist - https://techjournalism.medium.com/osint-checklist-for-company-investigations-86c3752c095d
 Busqueda google https://www.exploit-db.com/google-hacking-database
-HAVE I BEEN PWNED
-SHODAN
-HACKTRICKS CHECKLIST
-Persistence sniper
-FOCA y Maltego
-
-WHOIS y info del Autonomus System Name si lo tuviese.
+HAVE I BEEN PWNED - https://haveibeenpwned.com/
+SHODAN - https://www.shodan.io/
+Persistence sniper - https://github.com/last-byte/PersistenceSniper
+FOCA y Maltego - https://github.com/ElevenPaths/FOCA - https://www.maltego.com/
+ASN Lookup - https://hackertarget.com/as-ip-lookup/
+WhoIs - https://who.is/
