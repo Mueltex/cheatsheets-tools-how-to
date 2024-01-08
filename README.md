@@ -40,3 +40,4 @@ Persistence sniper - https://github.com/last-byte/PersistenceSniper
 FOCA y Maltego - https://github.com/ElevenPaths/FOCA - https://www.maltego.com/
 ASN Lookup - https://hackertarget.com/as-ip-lookup/
 WhoIs - https://who.is/
+Contenedor Kali - https://www.kali.org/docs/containers/using-kali-docker-images/
