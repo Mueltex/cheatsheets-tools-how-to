@@ -1,6 +1,20 @@
 ## Indice:
 - [Git](https://github.com/Mueltex/cheatsheets/blob/main/git-cheat-sheet.pdf)
-
+## Fases:
+- OSINT + Info tecnica y organizativa (LinkedIN, eventos, medium, repos...)
+- Wayback machine sitios coorporativos
+- Google hacking
+- Posibles leaks de credenciales (Have i been pwned)
+- Busqueda de máquinas expuestas (shodan)
+- Análisis del dominio con whois y del posible ASN asociado a la empresa, rangos públicos para identificar maquinas
+- Análisis de dominios y subdominios -> posibles entornos de pruebas o desactualizados, puntos de entrada VPN... (zoomeye, dnsdumpster)
+- Phishing dirigido -> Empleados concretos, portales de atención al cliente, soporte...
+- Diferenciar si estamos accediendo desde un dispositivo propio o desde un equipo corporativo (virtualizado o no). Si es propio -> cargar credenciales AD (es el mejor caso, si no hay politica de certificados o similar). En cualquier caso, ver segmento de red, detectar hosts vivos, servidores DNS para volcado de entradas, DCs para hacer queries LDAP, ver SMBs con ficheros, posibles relay de correos, logisn default en sitios web...
+- Siempre recorrer info hacia atrás
+- Siendo admin:
+-   Puertas traseras, desactivar EDRs, manipular archivo hosts, crear nuevos usuarios, modificación de archivos legítimos ej. DLL Hijacking, tareas programadas, habilitar nuevos servicios, acceder a contenido de otros usuarios
+- Exfiltracion: DNS, ICMP, sitiow web, repos de codigo, correo, pasar a un pc propio y de ahi salir, FTP, ssh
+- - Mitre
 ## Herramientas
 | Herramienta      | Descripcion | API Oficial | Implementación|
 | ----------- | ----------- | ----------- | ----------- |
@@ -43,3 +57,6 @@ WhoIs - https://who.is/
 Contenedor Kali - https://www.kali.org/docs/containers/using-kali-docker-images/
 Comprobar regex - https://regex101.com/
 Regex Cheatsheet - https://www.datacamp.com/cheat-sheet/regular-expresso
+Hacktricks
+Hackplayers
+
